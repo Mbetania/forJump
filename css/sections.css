@@ -7,7 +7,9 @@
     height: 90vh;
 
 }
-
+#hero h1{
+    font-size: var(--fz-h1);
+}
 #somos-jump .img-container{ 
     display: flex;
     align-items: center;
@@ -27,9 +29,29 @@
     background-size: cover;
 }
 
-#somos-jump p {
+#somos-jump h2 {
     padding: 20px 0;
+    margin-bottom: 80px;
 }
+#en-comunidad{
+
+}
+#info-container .carta{
+    padding: 40px 0px;
+    background-color: #1811222c;
+    margin: 20px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
+}
+/* #info-container h3,span,p {
+    margin: 0px 10px;
+}
+*/
+#info-container .carta-container{
+    text-align: center;
+    margin: 0px 10px;
+} 
 
 #nuestro-proposito{
 
@@ -44,7 +66,8 @@
     padding: 100px 12px;
 }
 #nuestro-valores h2{
-    margin: 0;
+    margin-top: 0;
+    font-size: var(--fz-h1);
 }
 #nuestro-valores p{
     display: none;

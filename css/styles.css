@@ -8,6 +8,7 @@
     --btn-bg: blueviolet;
     --btn-hover: rgb(101, 33, 165);
     --blanco: #f7f2f2;
+    --color-span: #ffd921;
     --titulos: "Barlow", italic;
     --parrafos: "Barlow Condensed";
     --fz-h1: 3.5em;
@@ -32,32 +33,36 @@ body{
     color: var(--blanco);
     background-color: var(--bg-home);
 }
-h1, h2{
+h1, h2 {
     font-family: var(--titulos); 
 }
 
-h3, h4, p, a, span{
+h3, h4, p, a,span{
     font-family: var(--parrafos);
     color: var(--blanco);
 }
 span{
     font-weight: bold;
+    color: var(--color-span);
 }
 .nav-link{
     color:#f7f2f2;
     text-decoration: none;
+    font-size: var(--fz-p);
 }
 ul{
     list-style: none;
 }
 
 button{
+    font-family: var(--titulos);
     font-size: var(--fz-btn);
     font-weight: bold;
+    margin-top: 10px;
     padding: 10px 30px;
     border-radius: 5px;
-    border: 2px solid rgba(0, 0, 0, 0,3);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0,5);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: var(--blanco);
     background-color: var(--btn-bg);
 

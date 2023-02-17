@@ -20,7 +20,6 @@ header nav{
 
 header a{
     padding: 5px 12px;
-    font-weight: bold;
 }
 header a:hover{
     color: var(--p-color);
