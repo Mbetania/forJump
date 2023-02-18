@@ -1,23 +1,24 @@
- @import url("sections.css");
- @import url("headers.css");
- :root{
-    --oscuro: #000;
-    --p-color:  blueviolet;
-    /* --s-color: */
-    --bg-home: #34086d;
-    --btn-bg: blueviolet;
-    --btn-hover: rgb(101, 33, 165);
-    --blanco: #f7f2f2;
-    --color-span: #ffd921;
-    --titulos: "Barlow", italic;
-    --parrafos: "Barlow Condensed";
-    --fz-h1: 3.5em;
-    --fz-h2: 2.7em;
-    --fz-h3: 2em;
-    --fz-p: 1.25em;
-    --fz-li: 1.25em;
-    --fz-btn: 1.25em
-    
+@import url("animate.css");
+@import url("sections.css");
+@import url("headers.css");
+:root{
+--oscuro: #000;
+--p-color:  blueviolet;
+/* --s-color: */
+--bg-home: #34086d;
+--btn-bg: blueviolet;
+--btn-hover: rgb(101, 33, 165);
+--blanco: #f7f2f2;
+--color-span: #ffd921;
+--titulos: "Barlow", italic;
+--parrafos: "Barlow Condensed";
+--fz-h1: 3.5em;
+--fz-h2: 2.7em;
+--fz-h3: 2em;
+--fz-p: 1.25em;
+--fz-li: 1.25em;
+--fz-btn: 1.25em
+
 }
 *{
     box-sizing: border-box;
